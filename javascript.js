@@ -41,7 +41,7 @@ function prepareOutputList(){
 async function callBridge(){
   // at this step, we should check if user approved BRIDGE_CONTRACT to spend its input tokens.
   // but lets skip this for now
-  // We will prepare transaction frin user input and ask user to broadcast it using metamamsk
+  // We will prepare transaction from user input and ask user to broadcast it using metamamsk
   let e = document.getElementById("input_list");
   let _inputTokenElement = e.options[e.selectedIndex].value
   let _inputToken = _inputTokenElement.split(":")[0]
